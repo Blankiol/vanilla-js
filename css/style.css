@@ -1,0 +1,82 @@
+.hidden {
+  display: none;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+input {
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+}
+#input_username {
+  width: 350px;
+  height: 40px;
+  font-size: 30px;
+}
+#input_username::placeholder {
+  font-size: 30px;
+}
+
+input::placeholder {
+  color: white;
+}
+#greeting {
+  color: white;
+  margin: 0px;
+}
+#todo_list {
+  margin-top: 20px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  color: white;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  align-items: center;
+  justify-content: center;
+}
+#clock {
+  display: flex;
+
+  margin: 10px;
+  color: white;
+  font-size: 80px;
+}
+#quote {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 15px;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  justify-content: center;
+}
+
+#weather {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+}
